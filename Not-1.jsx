@@ -251,3 +251,49 @@ module.exports = {
 //  için daha fazla konfigürasyon gerektirebilir.
 
 //**********************************************************************
+
+//** SCSS NEDİR
+
+//SCSS, Sass (Syntactically Awesome Style Sheets) ile aynı şeydir.
+//  SCSS, CSS dillerinin bir genişlemesidir ve programlama kavramlarını
+//  (örneğin değişkenler, döngüler, kontrol yapıları) içerebilir.
+//  Bu, CSS kodunun daha okunaklı ve organize olmasını sağlar. SCSS dosyaları.
+//  scss uzantısı ile kaydedilir ve sonra CSS dosyasına derlenir.
+//  Evet, aşağıda bir SCSS örneği veriyorum:
+
+//  Değişken tanımlama
+
+// $primary-color: #4d4d4d;
+// $secondary-color: #f0f0f0;
+
+// // Kullanım
+// body {
+//   background-color: $primary-color;
+//   color: $secondary-color;
+// }
+
+// // Nesting (Anlamlı isimlendirme)
+// nav {
+//   ul {
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+
+//     li {
+//       display: inline-block;
+
+//       a {
+//         color: $secondary-color;
+//         text-decoration: none;
+//       }
+//     }
+//   }
+// }
+
+// Bu örnekte, ilk olarak iki değişken tanımlanmıştır: $primary-color ve
+// $secondary-color. Daha sonra, bu değişkenler body için arka plan rengi
+//  ve yazı rengi olarak kullanılmıştır. Ayrıca, nav içinde birkaç CSS
+//  kuralının anlamlı bir şekilde gruplandırılması için "nesting" yapılmıştır.
+//  Bu SCSS kodu derlendiğinde, standart bir CSS dosyasına dönüşür.
+
+//**********************************************************************
