@@ -202,3 +202,52 @@ if (fruits1.includes("apple")) {
 //2- https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/15103026#overview
 
 //**********************************************************************
+
+//** WEBPACK NEDİR
+
+//Webpack, JavaScript için bir modül yükleyici ve paketleyicidir.
+//  Webpack, JavaScript dosyalarınızı ve diğer türlerdeki dosyaları
+//  (CSS, resimler vb.) Tarayıcılar tarafından anlaşılabilir hale
+//  getirmek için kullanabilirsiniz. Bu, dosyalarınızı daha küçük
+//  parçalara bölerek, sadece gerektiğinde yüklemelerini sağlar ve
+//  uygulamanızın performansını arttırır.
+
+//  Webpack kullanarak bir JavaScript uygulamasını nasıl
+//  paketleyebileceğinizi gösteren basit bir örnek vermek istiyorum:
+
+//  Projenizin kök dizininde, webpack ve webpack-cli modüllerini kurun:
+//  npm install webpack webpack-cli
+//  Projenizin kök dizininde, bir "src" klasörü oluşturun ve içine
+//  bir "index.js" dosyası ekleyin. Bu dosya uygulamanızın ana giriş
+//  noktası olacak.
+src / index.js;
+console.log("Hello from Webpack!");
+
+//  Projenizin kök dizininde, bir "webpack.config.js" dosyası oluşturun
+//  ve içine aşağıdaki kodu ekleyin:
+
+const path = require("path");
+
+module.exports = {
+  entry: "./src/index.js",
+  output: {
+    path: path.resolve(__dirname, "dist"),
+    filename: "bundle.js",
+  },
+};
+
+//  Projenizin kök dizininde, bir "dist" klasörü oluşturun.
+//  Bu klasör, paketlenmiş dosyalarınızı içerecektir.
+
+//  Projenizin kök dizininde, aşağıdaki komutu çalıştırın: npx webpack
+
+//  Bu komut, webpack'i kullanarak src/index.js dosyasını dist/bundle.js
+//  dosyasına paketler. Bu dosya, tarayıcınızda kullanabileceğiniz
+//  bir JavaScript dosyasıdır.
+
+//  Bu sadece webpack'in nasıl kullanılabileceğini gösteren basit bir
+//  örnektir. Gerçekte, webpack'in birçok farklı yapılandırma seçeneği
+//  ve eklentisi vardır, bu nedenle daha karmaşık uygulamalar
+//  için daha fazla konfigürasyon gerektirebilir.
+
+//**********************************************************************
