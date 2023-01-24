@@ -290,10 +290,28 @@ module.exports = {
 //   }
 // }
 
-// Bu örnekte, ilk olarak iki değişken tanımlanmıştır: $primary-color ve
-// $secondary-color. Daha sonra, bu değişkenler body için arka plan rengi
+//  Bu örnekte, ilk olarak iki değişken tanımlanmıştır: $primary-color ve
+//  $secondary-color. Daha sonra, bu değişkenler body için arka plan rengi
 //  ve yazı rengi olarak kullanılmıştır. Ayrıca, nav içinde birkaç CSS
 //  kuralının anlamlı bir şekilde gruplandırılması için "nesting" yapılmıştır.
 //  Bu SCSS kodu derlendiğinde, standart bir CSS dosyasına dönüşür.
+
+//**********************************************************************
+
+//** ROUTİNG NEDİR
+
+//Routing, ağlar arasında veri transferi için yol belirleme işlemidir.
+//  Routerlar, veri paketlerini belirli bir yoldan diğer ağlara veya cihazlara
+//  gönderir ve bu yolu belirlerken en uygun yolu seçer. Routing, ağlar
+//  arası veri transferinin hızlı ve güvenli bir şekilde gerçekleşmesini sağlar.
+
+//  Bir örnek olarak, bir kullanıcının evindeki bilgisayarından internete bağlanmasını
+//  düşünebiliriz. Bu kullanıcının bilgisayarı, evdeki modem aracılığıyla internet servis
+//  sağlayıcısına (ISP) bağlanır. ISP, kullanıcının bilgisayarının verilerini, internete
+//  bağlı diğer ağlara ve cihazlara yönlendirmek için kullandığı bir router kullanır.
+//  Router, verileri en uygun yoldan diğer ağlara ve cihazlara yönlendirir ve bu yolu
+//  belirlerken en kısa yolu veya en az trafikli yolu seçer. Örneğin, e-posta göndermek
+//  için kullanıcının bilgisayarından gönderilen veriler, en kısa yol olarak belirlenen
+//  bir sunucuya gönderilir ve orada işlenir.
 
 //**********************************************************************
